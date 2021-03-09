@@ -1,0 +1,41 @@
+<html>
+<head>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/postfolio.css')}}">
+</head>
+<body style="margin:0px;">
+  <div id="row">
+    <div id="main">
+      <div id="div1">
+        <img src="{{url_for('static', filename='img/4.jpg')}}" style="height: 120px;width:120px;border-radius: 50%;padding: 2px;border:2px solid white;">
+      </div>
+      <div>
+        <h2 style="font-family: monospace;color: white;margin-top: 4px;">Avinay Mehta</h2>
+        <h4 style="font-family: monospace;color:#dedede">9779963094</h4>
+      </div>
+      <div style="text-align: center;">
+        <div style="display: inline-block;">
+          <h1 style="color:white;">Main Menu</h1>
+          <hr style="width:80px;color: white;height: 3px;background-color: white;margin-top: -15px;">
+        </div>
+        <div>
+          <ul style="list-style-type: none;color:#0586b7;margin-left: -30px;">
+            <li id="li"><a href="/home" target="display">All Posts</a></li>
+            <li id="li"><a href="/edit-delete" target="display">Edit & Delete Post</a></li>
+            <li id="li"><a href="/edit/0" target="display">Add Posts</a></li>
+            <li id="li"><a href="/reviews" target="display">Reviews and Query</a></li>
+            <li id="li"><a href="/logout">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="main2">
+      <div style="margin:0px;">
+        <iframe name="display" style="border:0px;height:100%;width:100%;margin:0px;" src="/home"></iframe>
+      </div>
+      <div style="display:block;background-color: #333;height: auto;text-align: center;color: white;">
+        Footer
+      </div>
+    </div>
+  </div>
+</body>
+</html>
