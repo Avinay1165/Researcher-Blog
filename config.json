@@ -6,11 +6,11 @@
     "title": "Welcome to Researcher Blog",
     "subtitle": "Find the best research paper created by the students for free",
     "about": "Regardless of the nature of your research, if you are writing a paper an outline will help you to not only organize your thoughts, but also serve as the template for your entire paper. An outline for a research paper is a visual reminder to include all of the pertinent details of your research into your essay or paper. It is essentially a skeletal version of the true paper, and will guide you through the entire process.\n\n",
-    "local_uri": "mysql://root:@localhost/researcher_bolg",
-    "prod_uri": "mysql://root:@localhost/researcher_bolg",
+    "local_uri": "",
+    "prod_uri": "",
     "no_of_posts":3,
     "admin_user": "Avinay",
-    "admin_password": "palthan",
+    "admin_password": "",
     "login_img": "bootstrap-solid.svg",
     "admin_title": "Admin Panel"
   }
