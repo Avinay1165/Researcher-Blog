@@ -40,7 +40,7 @@ CREATE TABLE `user_login` (
 --
 
 INSERT INTO `user_login` (`sno`, `username`, `password`, `email`, `date`) VALUES
-(1, 'Avinay', 'palthan', 'avinay1165@gmail.com', '2020-09-10 08:02:51'),
+(1, 'Avinay', '', 'avinay1165@gmail.com', '2020-09-10 08:02:51'),
 (2, 'Rahul', 'rohole', 'rahul1165@gmail.com', '2020-09-10 08:10:10'),
 (3, 'Rahul', 'rohole', 'rahul1165@gmail.com', '2020-09-10 08:10:44'),
 (4, 'Mehak', 'rendom', 'mehak1165@gmail.com', '2020-09-10 08:11:06'),
